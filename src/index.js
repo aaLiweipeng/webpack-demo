@@ -2,13 +2,16 @@
  * @Descripttion: 
  * @Author: lwp
  * @Date: 2023-04-17 02:52:22
- * @LastEditTime: 2023-04-20 07:12:33
+ * @LastEditTime: 2023-04-28 01:43:39
  */
 // 引入 css
 import css1 from './style/style1.css'
 import less2 from "./style/style2.less";
 console.log("css1", css1);
 console.log("less2", less2);
+
+import { sum } from "./math";
+import _ from "lodash";
 
 import { sum } from './math'
 
