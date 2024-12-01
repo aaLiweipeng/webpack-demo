@@ -2,7 +2,7 @@
  * @Descripttion:
  * @Author: lwp
  * @Date: 2023-04-17 02:52:22
- * @LastEditTime: 2023-04-28 01:48:32
+ * @LastEditTime: 2023-04-28 02:19:01
  */
 // 引入 css
 import css1 from "./style/style1.css";
@@ -13,9 +13,7 @@ console.log("less2", less2);
 import { sum } from "./math";
 import _ from "lodash";
 
-import { sum } from "./math";
-
-const sumRes = sum(10, 20);
+const sumRes = sum(10, 30);
 console.log("sumRes", sumRes);
 
 // // 增加，开启热更新之后的代码逻辑
